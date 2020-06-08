@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+
+ul, ol {
+  font-size: .875rem !important;
+  line-height: 1.50rem !important;
+}
+
+.titleWhite {
+  display: table;
+  margin-top: 2.5rem;
+  color: white;
+  font-weight: 300 !important;
+  font-size: 2.5rem !important;
+  text-transform: uppercase;
+}
+
+.titleWhite:after {
+  display: block;
+  padding-top: .25rem;
+  border-bottom: .15rem solid #f7316b;
+  height: 1px;
+  width: 50%;
+  content: "";
+}
+
+.titleGrey {
+  display: table;
+  margin-bottom: 3rem;
+  color: #454545;
+  font-weight: 300 !important;
+  font-size: 2.5rem !important;
+  text-transform: uppercase;
+}
+
+.titleGrey:after {
+  display: block;
+  padding-top: .25rem;
+  border-bottom: .15rem solid #f7316b;
+  height: 1px;
+  width: 50%;
+  content: "";
+}
+
+.titleBlue {
+  padding-bottom: 2rem;
+  color: #1da1f2;
+  font-weight: 900 !important;
+  font-size: 1.375rem !important;
+}
+
+.titlePink {
+  padding: 1rem 0;
+  color: #f7316b;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+}
+
+.btnPink {
+  color: #f7316b;
+  background-color: #ffffff;
+  border: 2px solid #f7316b;
+  border-radius: 8px;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase
+}
+
+.btnPink:hover {
+  color: #ffffff;
+  background-color: #f7316b;
+}
+
+.partenaires {
+  font-size: 0.85rem !important;
+  color: grey;
+  text-decoration: none;
+}
+
+.partenaires:hover {
+  color: #f7316b;
+  text-decoration: none;
+}
+
+/* ********************************************************************* NAVBAR
+**************************************************************************** */
+
+.navbar-brand {
+  padding: 7px 0 0 15px
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-top: 5px solid #1da1f2;
+  margin: 0;
+  padding: 0;
+  height: 85px;
+  z-index: 99
+}
+
+.navbar-nav>li>a {
+  padding: 0 15px;
+  line-height: 80px;
+  font-size: 14px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #454545;
+  text-transform: uppercase;
+  font-weight: 700
+}
+
+.navbar-nav>li>a.omega {
+  padding: 0 0 0 15px
+}
+
+.navbar-nav>li>a:hover {
+  color: #f7316b
+}
+
+.navbar-nav>li>a:link, .navbar-nav>li>a:visited, .navbar-nav>li>a:hover, .navbar-nav>li>a:active {
+  background: none
+}
+
+.navbar-toggle {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+  line-height: 80px
+}
+
+.navbar-toggle i {
+  color: #454545
+}
