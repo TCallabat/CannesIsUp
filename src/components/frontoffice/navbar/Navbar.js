@@ -18,6 +18,7 @@ class Header extends Component {
                             <li><Link to={"/equipe"}>l'équipe</Link></li>
                             <li><Link to={"/partenaires"}>partenaires</Link></li>
                             <li><Link to={"/contact"}>contact</Link></li>
+                            <li><Link to={"/admin/dashboard"}><i class="far fa-user-circle"></i></Link></li>
                         </ul>
                     </div>
                 </Navbar>

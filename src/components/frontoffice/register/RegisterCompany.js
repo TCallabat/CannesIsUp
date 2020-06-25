@@ -74,8 +74,9 @@ class RegisterCompany extends Component {
                 <Form.Group as={Row} className="my-1 p-0" style={{ minHeight: "10rem" }}>
                     <Form.Label column sm="4">Description</Form.Label>
                     <Col sm={8}>
-                        <ReactQuill theme="bubble" style={{ height: "100%", backgroundColor: "#ffffff", borderRadius: "8px", border: "1px solid #f7316b" }} onChange={this.handleChange} value={this.state.editorHtml} formats={RegisterCompany.formats} modules={RegisterCompany.modules} name="companyDescription" />
+                        <ReactQuill theme="bubble" style={{ height: "100%", backgroundColor: "#ffffff", borderRadius: "8px", border: "1px solid #f7316b" }} onChange={this.handleChange} value={this.state.editorHtml} formats={RegisterCompany.formats} modules={RegisterCompany.modules} name="companyDescriptionEditor" />
                     </Col>
+                    <input type="hidden" name="companyDescription" value={this.state.editorHtml} />
                 </Form.Group>
                 <Form.Group as={Row} className="my-1 p-0" >
                     <Form.Label column sm="4">Logo de la société</Form.Label>

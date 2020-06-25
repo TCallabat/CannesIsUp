@@ -16,6 +16,8 @@ import Equipe from "./frontoffice/equipe/Equipe";
 import Partenaires from "./frontoffice/partenaires/Partenaires";
 import Contact from "./frontoffice/contact/Contact";
 
+import Dashboard from "./backoffice/dashboard/Dashboard";
+import Member from "./backoffice/member/Member";
 
 
 import "./App.css"
@@ -38,6 +40,9 @@ function App() {
         <Route exact path="/partenaires" component={Partenaires} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/mentions-legales" component={Legal} />
+       
+        <Route exact path="/admin/dashboard" component={Dashboard} />
+        <Route exact path="/admin/dashboard/:id" component={Member} />
 
 
       </Switch>

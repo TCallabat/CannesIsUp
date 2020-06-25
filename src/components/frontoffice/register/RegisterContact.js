@@ -59,8 +59,9 @@ class RegisterContact extends Component {
                 <Form.Group as={Row} className="my-1 p-0"  style={{ minHeight: "6rem" }}>
                     <Form.Label column sm="4">Citation</Form.Label>
                     <Col sm={8}>
-                        <ReactQuill theme="bubble" style={{ height: "100%", backgroundColor: "#ffffff", borderRadius: "8px", border: "1px solid #f7316b" }} onChange={this.handleChange} value={this.state.editorHtml} modules={{ toolbar: false }} name="contactQuote"/>
+                        <ReactQuill theme="bubble" style={{ height: "100%", backgroundColor: "#ffffff", borderRadius: "8px", border: "1px solid #f7316b" }} onChange={this.handleChange} value={this.state.editorHtml} modules={{ toolbar: false }} name="contactQuoteEditor"/>
                     </Col>
+                    <input type="hidden" name="contactQuote" value={this.state.editorHtml} />
                 </Form.Group>
                 <Form.Group as={Row} className="my-1 p-0" >
                     <Form.Label column sm="4">Portrait</Form.Label>

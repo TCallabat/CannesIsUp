@@ -8,6 +8,7 @@ Projet réalisé avec la stack MERN :
 
 Les dépendances suivantes sont utlisées pour la partie Front-End :
 * Bootstrap (mise en page)
+* React-Router-Dom (navigation)
 * React-Quill (editeur de texte WYSIWYG)
 * React-Infinite-Scroll (gestion du défilement de la page)
 
@@ -31,3 +32,4 @@ Run on [http://localhost:3000](http://localhost:3000)
 <img src="screenshots/image-03.png?raw=true" width="400"/>
 <img src="screenshots/image-04.png?raw=true" width="400"/>
 <img src="screenshots/image-05.png?raw=true" width="400"/>
+<img src="screenshots/image-06.png?raw=true" width="400"/>
